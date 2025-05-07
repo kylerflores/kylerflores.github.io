@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">KF</div>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#connect">Connect</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Kyler Flores</h1>
+                <p class="subtitle">Developer & Designer</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="section-content">
+                <h2>About Me</h2>
+                <div class="about-text">
+                    <p>I am a third year Computer Science student at the University of British Columbia with a strong technical skill set including Python, Java, C/C++, HTML/CSS and JavaScript, among many others. I have experience in web development, creating responsive designs and reusable components. I also worked as an Independent Systems Developer, where I built a security-focused equipment tracking system and improved reporting efficiency. My projects include developing a Python game, analyzing seismicity data, and building a hydration tracker app. Outside of my technical work, I have built extensive communication and team building skills with people of all ages from my experience working in retail, children's ministry, and leading youth and camp activities. I'm interested in health and fitness, backpacking, FPV drones, playing guitar and all literally all things tech. I just wish I had more time on this earth to do it all.</p>
+                </div>
+                <div class="tabs-container">
+                    <div class="tabs-header">
+                        <button class="tab-btn active" data-tab="education">Education</button>
+                        <button class="tab-btn" data-tab="experience">Experience</button>
+                        <button class="tab-btn" data-tab="skills">Skills</button>
+                    </div>
+                    <div class="tabs-content">
+                        <div class="tab-pane active" id="education">
+                            <div class="education-item">
+                                <h3>Bachelor of Science - Computer Science</h3>
+                                <p class="institution">University of British Columbia</p>
+                                <p class="date">Expected Graduation: 2028</p>
+                                <p>GPA: 4.0</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="experience">
+                            <div class="experience-item">
+                                <h3>Web Developer</h3>
+                                <p class="company">Pilgrim Painting</p>
+                                <p class="date">Apr 2024 - Present</p>
+                                <ul>
+                                    <li>Designed responsive layouts with React and CSS, ensuring mobile compatibility</li>
+                                    <li>Built reusable React components with HTML, improving accessibility scores by 20%</li>
+                                    <li>Conducted cross-browser testing and debugging to ensure compatibility and optimal performance</li>
+                                </ul>
+                            </div>
+                            <div class="experience-item">
+                                <h3>Independent Systems Developer</h3>
+                                <p class="company">VGH Emergency</p>
+                                <p class="date">Dec 2022 - Nov 2023</p>
+                                <ul>
+                                    <li>Developed a custom security focused equipment tracking system for VGH Emergency</li>
+                                    <li>Collaborated with physicians, biomedical engineers and management to identify operational needs to find solutions that aligned with clinical workflows</li>
+                                    <li>Improved asset management by automating aspects of the reporting processes</li>
+                                    <li>Enabled real-time data synchronization between user interface and a master administrative Google Sheet using Google Apps Script</li>
+                                    <li>Automated equipment identification process by integration of QR codes</li>
+                                    <li>Reduced manual data entry of emergency physicians, improving reporting efficiency by 80%</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="skills">
+                            <div class="skills-grid">
+                                <div class="skill-category">
+                                    <h3>Frontend</h3>
+                                    <ul>
+                                        <li>HTML & CSS</li>
+                                        <li>JavaScript</li>
+                                        <li>React.js</li>
+                                        <li>Responsive Design</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h3>Backend</h3>
+                                    <ul>
+                                        <li>Node.js</li>
+                                        <li>Python</li>
+                                    </ul>
+                                </div>
+                                <div class="skill-category">
+                                    <h3>Tools & Others</h3>
+                                    <ul>
+                                        <li>VS Code</li>
+                                        <li>Git & GitHub</li>
+                                        <li>Object-Oriented Programming</li>
+                                        <li>Agile Methodologies</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="section-content">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>Guess What?</h3>
+                        <p>A Python implementation of the classic board game Guess Who?, designed as a pass-and-play experience for two players. Players take turns asking yes/no questions to guess their opponent's mystery character before the other player does.</p>
+                    </div>
+                    <div class="project-card">
+                        <h3>Hydration Tracker</h3>
+                        <p>This application allows the user to track their hydration and replenishment of electrolytes by inputting their consumption of sodium, potassium, water and the duration of their workouts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="connect">
+            <div class="section-content">
+                <h2>Get Connected</h2>
+                <div class="social-links">
+                    <a href="https://github.com/kylerflores" target="_blank" class="social-link">
+                        <span class="social-icon">GH</span>
+                        <span class="social-text">GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/kyler-flores" target="_blank" class="social-link">
+                        <span class="social-icon">LI</span>
+                        <span class="social-text">LinkedIn</span>
+                    </a>
+                    <a href="https://instagram.com/kyler_flores" target="_blank" class="social-link">
+                        <span class="social-icon">IG</span>
+                        <span class="social-text">Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Kyler Flores. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

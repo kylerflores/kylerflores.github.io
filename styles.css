@@ -347,12 +347,13 @@ footer {
     }
     
     .tabs-header {
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     
-    .tab-btn.active::after {
-        display: none;
+    .tab-btn {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
     }
     
     .hero-content h1 {
